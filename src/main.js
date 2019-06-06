@@ -4,10 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import FastClick from 'fastclick'
+import './assets/stylus/index.styl'
 
 Vue.config.productionTip = false
 FastClick.attach(document.body)
 document.body.style.background = '#222'
+document.body.style.margin = '0'
+document.body.style.padding = '0'
 
 /* eslint-disable no-new */
 new Vue({
