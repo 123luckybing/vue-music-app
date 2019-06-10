@@ -13,28 +13,32 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Index',
-      component: Index
+      name: 'Index', // index 下的router-view 是给children占位置的
+      component: Index,
+      redirect: '/recommend',
+      children: [
+        {
+          path: 'recommend',
+          name: 'Recommend',
+          component: Recommend
+        }, {
+          path: '/singer',
+          name: 'Singer',
+          component: Singer
+        }, {
+          path: '/band',
+          name: 'Band',
+          component: Band
+        }, {
+          path: '/search',
+          name: 'Search',
+          component: Search
+        }
+      ]
     }, {
       path: '/user',
       name: 'User',
       component: User
-    }, {
-      path: '/recommend',
-      name: 'Recommend',
-      component: Recommend
-    }, {
-      path: '/singer',
-      name: 'Singer',
-      component: Singer
-    }, {
-      path: '/band',
-      name: 'Band',
-      component: Band
-    }, {
-      path: '/search',
-      name: 'Search',
-      component: Search
     }
   ]
 })
