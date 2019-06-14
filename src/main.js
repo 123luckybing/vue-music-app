@@ -6,7 +6,7 @@ import router from './router'
 import FastClick from 'fastclick'
 import './assets/stylus/index.styl'
 
-require('./mock/index');
+require('./mock/index')
 Vue.config.productionTip = false
 FastClick.attach(document.body)
 document.body.style.background = '#222'

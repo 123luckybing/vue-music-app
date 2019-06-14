@@ -17,7 +17,6 @@
 
 <script>
 export default {
-  
 }
 </script>
 
@@ -43,5 +42,3 @@ export default {
   border-bottom: 2px solid #ffcd32;
 }
 </style>
-
-
