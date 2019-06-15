@@ -1,5 +1,7 @@
 <template>
-  <div>singer</div>
+  <div>
+    singer
+  </div>
 </template>
 
 <script>
