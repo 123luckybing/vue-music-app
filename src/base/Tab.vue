@@ -1,18 +1,12 @@
 <template>
   <div>
-   
+    
   </div>
 </template>
 
 <script>
-import Tab from '../base/Tab'
 export default {
-  components: {
-    
-  },
-  methods: {
-    
-  }
+  
 }
 </script>
 
