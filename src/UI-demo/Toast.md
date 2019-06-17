@@ -1,3 +1,5 @@
+Toast组件的使用例子：
+```
 <template>
   <div>
     <button @click='toastShow'>toast弹出</button>
@@ -22,3 +24,5 @@ export default {
 <style scoped>
 
 </style>
+
+```
